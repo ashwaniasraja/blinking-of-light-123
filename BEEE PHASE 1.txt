@@ -1,0 +1,60 @@
+  
+
+
+CODE FOR PROGRAM 
+
+
+void setup()
+{
+  pinMode(2, OUTPUT);
+   pinMode(3, OUTPUT);
+   pinMode(4, INPUT);
+  pinMode(5, INPUT);
+    
+}
+
+void loop()
+{
+  int a=digitalRead(4);
+   int b=digitalRead(5);
+  if (a=='1'&&b=='1')
+  {
+    digitalWrite(2,HIGH);
+    digitalWrite(3,LOW);
+  }
+  else if(a=='1'&&b=='0')
+     {
+    digitalWrite(3,HIGH);
+    digitalWrite(2,LOW);
+  }
+  else if(a=='0'&&b=='1')
+     {
+    digitalWrite(2,HIGH);
+    digitalWrite(3,LOW);
+  }
+TOPIC=DESIGN A SYSTEM WITH TWO BUTTONS SUCH THAT A .RED LIGHT when any button is pressed during night 
+                            B.green light when both buttons are pressed during night.
+
+
+
+
+
+CONCEPT USED   =  circuit design on breadboard , knowleadge of arduino uno,breadboard, LED, wire, knowledge of grounding,digital signal...
+
+
+
+LEARNING AND OBSERVATION = We come to know circuit design on breadboard, we also know how to write code and application of arduino.
+                            we have shown that after connecting the whole circuit with arduino and after coding and compiling the code,
+                            we have observe  RED LIGHT when any button is pressed during night, 
+                            green light when both buttons are pressed during night 
+                             PROBLEMS AND TROBLESHOOTING: the possibility of small shock's while handling arduino uno, LED wire can be  break if you are not                                                               handle it gently , while putting it in breadboard . Please check the connectivity is well  or not before running or compiling the code .LED may damage.. 
+
+
+PRECAUTION:   The possibility of small shock's while handling arduino can be avoid by connecting arduino uno,first to cable and then to  computer,to avoid damage of LED connect it with                     resistance and then to bread board...
+
+
+LEARNING OUTCOME:  The experiment we perform give the idea of pratical knowledge , thinkingskill improvement, various type of pattern ,we can made on LED Sequence.
+                                    ASHWANI AS RAJA
+
+
+
