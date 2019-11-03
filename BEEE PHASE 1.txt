@@ -29,8 +29,8 @@ void loop()
   }
   else if(a=='0'&&b=='1')
      {
-    digitalWrite(2,HIGH);
-    digitalWrite(3,LOW);
+    digitalWrite(3,HIGH);
+    digitalWrite(2,LOW);
   }
 TOPIC=DESIGN A SYSTEM WITH TWO BUTTONS SUCH THAT A .RED LIGHT when any button is pressed during night 
                             B.green light when both buttons are pressed during night.
